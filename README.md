@@ -1,4 +1,32 @@
 # en-tatli-proje2
  :D
 
-![Project 524](https://github.com/saalkan/en-tatli-proje2/assets/23224535/51181a26-58a8-4203-a6f0-67717b613a83)
+![project_readme](https://github.com/saalkan/en-tatli-proje2/assets/23224535/9aec534f-4436-48cb-ad6b-1d82fde8f105)
+
+Base project: 
+
+Pelin Karakoca
+
+
+Contributors: 
+
+Omar Yusuf Önalan
+Sena Kokoz
+Uygar Akın
+Bilal Demirel
+Cansu Cebesoy
+Şevval Aslıgül Alkan
+Samet Orbuk
+Ömer Faruk Yılmaz
+Koray Bozefe
+
+
+Editors:
+
+Samet Orbuk
+Uygar Akın
+Şevval Aslıgül Alkan
+Cansu Cebesoy
+Sena Çakır
+Mert Öztürk
+Tuğba Taşkın
