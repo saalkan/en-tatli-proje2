@@ -7,6 +7,7 @@ Pelin Karakoca
 Omar Yusuf Önalan<br/>
 Sena Kokoz<br/>
 Uygar Akın<br/>
+Sena Çakır<br/>
 Bilal Demirel<br/>
 Cansu Cebesoy<br/>
 Şevval Aslıgül Alkan<br/>
