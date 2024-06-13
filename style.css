@@ -32,6 +32,13 @@ body {
   top: 0;
   z-index: 999;
   width: 100%;
+  /*değişiklikler-başla*/
+  background: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.04) 0%,
+        rgb(0, 0, 0, 0.9) 100%
+      );
+  /*değişiklikler-bitir*/
 }
 
 .navbar__logo {
@@ -44,6 +51,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  
 }
 
 .navbar__container--secondary {
@@ -172,12 +180,58 @@ ul {
   font-size: var(--button);
 }
 
+/*değişiklikler-başla*/
+.hero__button:hover {
+  cursor: pointer;
+  background-color: #666;
+  transform: scale(1.05);
+  transition: all 0.6s ease;
+  font-weight: bold;
+}
+/*değişiklikler-bitir*/
+
 .movie-list__container {
   display: flex;
   flex-direction: column;
   position: relative;
   top: -5rem;
+  /*değişiklikler-başla*/
+  overflow-y: hidden;
+  overflow-x: auto;
+  white-space: nowrap;
 }
+
+.movie-list__container::-webkit-scrollbar {
+  display: none;
+}
+
+.movie-list__container img:hover {
+  transform: scale(1.05);
+  transition: transform 0.6s ease;
+}
+
+.movie-list__title:hover {
+  cursor: pointer;
+}
+
+.movie-list__title::after {
+  content: 'Explore All ➜';
+  color: #54b9c5;;
+  font-weight: lighter;
+  font-size: small;
+  margin-left: 10px;
+  opacity: 0;
+  transform: translateX(-10px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  white-space: nowrap;
+}
+
+.movie-list__title:hover::after {
+  opacity: 1;
+  transform: translateX(0);
+}
+/*değişiklikler-bitir*/
+
 .movie-list__item {
   object-fit: cover;
   margin: 0 0.1rem;
