@@ -1,6 +1,3 @@
-# en-tatli-proje2
- :D
-
 ![project_readme](https://github.com/saalkan/en-tatli-proje2/assets/23224535/9aec534f-4436-48cb-ad6b-1d82fde8f105)
 
 <h3>Base project:</h3>
