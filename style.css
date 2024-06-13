@@ -1,5 +1,8 @@
 :root {
+  /*eski background
   --background: linear-gradient(rgba(149, 57, 57, 0.8), rgba(50, 50, 50, 0.8));
+  */
+  --background: rgb(20, 20, 20);
   --white: rgba(229, 229, 229);
   --black: rgba(50, 50, 50, 0.9);
   --button: clamp(0.5rem, 0.0888rem + 2.6316vi, 1.25rem);
@@ -35,18 +38,24 @@ body {
   /*değişiklikler-başla*/
   background: linear-gradient(
         to top,
-        rgba(0, 0, 0, 0.04) 0%,
-        rgb(0, 0, 0, 0.9) 100%
+        rgba(0, 0, 0, 0.1) 0%,
+        rgb(0, 0, 0, 3) 100%
       );
   /*değişiklikler-bitir*/
 }
 
-.navbar__logo {
-  width: 12vw;
+.navbar__logo-mobile {
+  /*width: 12vw;*/
+  height: 5vw;
   position: absolute;
   left: 1.5em;
-  margin: 1.5em;
+  margin: 1.2em;
 }
+
+.navbar__logo-desktop {
+  display: none;
+}
+
 .navbar__container--primary {
   display: flex;
   align-items: center;
@@ -70,6 +79,10 @@ body {
   background: var(--black);
   display: none;
   padding: 1em;
+}
+
+.navbar__dropdown--items a:hover {
+  color: darkgray;
 }
 
 ul {
@@ -145,9 +158,21 @@ ul {
   justify-content: center;
   gap: 1rem;
   bottom: 5rem;
+  /*değşiklikler-başla
   right: 6rem;
+  değişiklikler-bitir*/
   width: 50%;
 }
+
+/*değişiklikler-başla*/
+#desktop_bg {
+  display: none;
+}
+
+#mobile_bg {
+  display: inline-block;
+}
+/*değişiklikler-bitir*/
 
 .hero__description--header {
   font-size: var(--header);
@@ -201,6 +226,14 @@ ul {
   white-space: nowrap;
 }
 
+.movie-list__container:last-child img:hover {
+  cursor: pointer;
+  background-color: #666;
+  transform: scale(0.95);
+  transition: all 0.6s ease;
+  font-weight: bold;
+}
+
 .movie-list__container::-webkit-scrollbar {
   display: none;
 }
@@ -241,6 +274,12 @@ ul {
   overflow-x: scroll;
 }
 
+/*değişiklik-başla*/
+.footer {
+  display: none;
+}
+/*değişiklik-biitir*/
+
 @media screen and (min-width: 800px) {
   .navbar__toggle--label {
     display: none;
@@ -264,8 +303,16 @@ ul {
     display: block;
   }
 
-  .navbar__logo {
+  .navbar__logo-mobile {
+    display: none;
+  }
+
+  .navbar__logo-desktop {
+    display: inline-block;
+    width: 12vw;
     position: static;
+    left: 1.5em;
+    margin: 1.5em;
   }
 
   .hero__item-desktop {
@@ -285,10 +332,25 @@ ul {
     bottom: 10rem;
     left: 1rem;
     width: 50%;
-    background: rgba(255, 255, 255, 0.1);
     border-radius: 10px;
+    /*değişiklik-başla
+    background: rgba(255, 255, 255, 0.1);    
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    değişiklik-biti*/
   }
+
+  #desktop_bg {
+    display: inline-block;
+  }
+
+  #mobile_bg {
+    display: none;
+  }
+
+  .outer-div {
+    margin: 0 3vw;
+  }
+
   .movie-list {
     position: relative;
     top: -3rem;
@@ -296,6 +358,53 @@ ul {
   .movie-list__item {
     aspect-ratio: 5/3;
   }
+
+  /*değişiklikler başla*/
+  .footer {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vh;
+    margin: 0 10vw;
+  }
+  
+  .footer__nav-icons {
+    display: flex;
+    column-gap: 2vw;
+  }
+  
+  .footer__nav-links {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vh;
+  }
+  
+  .footer__nav-links__row {
+    display: flex;
+  }
+  
+  .footer__nav-links__row a {
+    flex: 1;
+    text-decoration: none;
+    color: rgb(229, 229, 229);
+  }
+
+  .footer__nav-links__row a:hover {
+    text-decoration: underline;
+  }
+
+  .footer__p-box {
+    color: rgb(128, 128, 128);
+    border: 1px solid rgb(128, 128, 128);
+    text-align: center;
+    width: 20vw;
+    height: 6vh;
+    padding-top: 1vh;
+  }
+  
+  .footer__p-info {
+    color: rgb(128, 128, 128);
+  }
+/*değişiklikler bitir*/
 }
 
 /*
