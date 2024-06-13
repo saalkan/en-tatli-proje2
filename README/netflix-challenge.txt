@@ -1,0 +1,12 @@
+Netflix ödevi ile ilgili: 
+
+1. ekte yer alan iki adet görseli referans olarak kullanarak netflix uygulamasının landing page kısmını yapmanız beklenmektedir.
+2. ödevi bitirdiğinizde loom.com a 5 dk süre içerisinde teknik bir mülakattaymış gibi bir video (kamera açık ve sizide ekranda gösteren bir avatar ile kayıt alıyorsunuz.) yüklüyoruz. 
+Ve video linkini bana iletiyorsunuz slack üzerinden.
+3. Ödevlerin bireysel yapılması önemli kod benzerliği kontrolü yapılacaktır. Videolarda kod kısmını da detaylıca açıklamanız gerekmektedir.
+4. https://api.themoviedb.org/3/trending/all/week?api_key=229df96d9cd7e64b815fad2f3de2890d&language=en-US
+   https://image.tmdb.org/t/p/w300/iADOJ8Zymht2JPMoy3R7xceZprc.jpg   ilk url e yapacağınız istek ile size bir response gelecek ve response içindeki poster path kısmını ikinci url in son 
+   kısmına kopyalayarak resimleri kullanabilirsiniz.
+
+5. En güzel ödev tekrar haftasında çözüm olarak sunulacaktır.
+6. responsvive tasarım bonus :)

@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter&display=swap"
+      rel="stylesheet"
+    />
+    <title>Netflix Mobile</title>
+  </head>
+  <body>
+    <div class="main">
+      <!--
+      <div class="navbar">
+
+        <div class="navbar__container navbar__container--mobile">
+          <nav class="navbar__search">
+            <div>
+              <h2>For Pilin</h2>
+            </div>
+            <div class="navbar__buttons">
+              <button class="navbar__button">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+              <button class="navbar__button">
+                <i class="fa-solid fa-tv"></i>
+              </button>
+            </div>
+          </nav>
+        </div>
+        <div class="navbar__container navbar__container--desktop"></div>
+      </div>
+-->
+      <div class="navbar">
+        <div class="navbar__container navbar__container--primary">
+          <img class="navbar__logo" src="./images/Netflix_2015_logo.svg.png" />
+          <input type="checkbox" class="navbar__toggle" id="navbar__toggle" />
+          <label for="navbar__toggle" class="navbar__toggle--label">
+            <i class="fa-solid fa-bars"></i>
+            <span></span>
+          </label>
+          <ul class="navbar__dropdown--items">
+            <li>
+              <a href="#" class="navbar__link navbar__dropdown--item">Home</a>
+            </li>
+            <li>
+              <a href="#" class="navbar__link navbar__dropdown--item"
+                >TV Shows</a
+              >
+            </li>
+            <li>
+              <a href="#" class="navbar__link navbar__dropdown--item">Movies</a>
+            </li>
+            <li>
+              <a href="#" class="navbar__link navbar__dropdown--item"
+                >New & Popular</a
+              >
+            </li>
+            <li>
+              <a href="#" class="navbar__link navbar__dropdown--item"
+                >My List</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="navbar__container navbar__container--secondary">
+          <input type="text" class="navbar__search" />
+          <button class="navbar__button">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+          <a href="#" class="navbar__link navbar__item-desktop">Kids</a>
+          <button class="navbar__button">
+            <i class="fa-solid fa-bell"></i>
+          </button>
+          <a href="#" class="navbar__link"
+            ><img class="navbar__image" src="./images/netflix-pp.webp"
+          /></a>
+          <button class="navbar__button navbar__item-desktop">
+            <i class="fa-solid fa-sort-down"></i>
+          </button>
+        </div>
+      </div>
+      <div class="hero">
+        <div class="hero__container">
+          <img
+            class="hero__image hero__item-mobile"
+            src="./images/umbrella_academy.webp"
+          />
+          <div class="hero__details">
+            <h1 class="hero__description--header">Umbrella Academy</h1>
+            <p class="hero__description--detail hero__item-desktop">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Dignissimos nemo et eveniet commodi ducimus iste repellat
+              asperiores consectetur. Facere, voluptatem!
+            </p>
+            <div class="hero__buttons">
+              <button class="hero__button hero__button--play">
+                <i class="fa-solid fa-play"></i>Play
+              </button>
+              <button class="hero__button hero__button--info">
+                <i class="fa-solid fa-circle-info"></i>More Info
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="movie-list">
+        <div class="movie-list__container">
+          <h2 class="movie-list__title">Netflix Originals</h2>
+          <div class="movie-list__items movie-list__items horizontal">
+            <img
+              class="movie-list__item"
+              src="https://image.tmdb.org/t/p/w300/iADOJ8Zymht2JPMoy3R7xceZprc.jpg"/>
+            
+            
+            <img
+              class="movie-list__item"
+              src="https://image.tmdb.org/t/p/w300/sh7Rg8Er3tFcN9BpKIPOMvALgZd.jpg"/>
+             
+            
+            <img class="movie-list__item" src="https://image.tmdb.org/t/p/w300/mztdt3y6GBsJR69zHtszFezTCLT.jpg"/> 
+            <img
+              class="movie-list__item"
+              src="https://image.tmdb.org/t/p/w300/vlHJfLsduZiILN8eYdN57kHZTcQ.jpg"/>
+              
+            
+            <img
+              class="movie-list__item"
+              src="https://image.tmdb.org/t/p/w300/bcM2Tl5HlsvPBnL8DKP9Ie6vU4r.jpg"/>
+              
+           
+            <img
+              class="movie-list__item"
+              src="https://image.tmdb.org/t/p/w300/1pdfLvkbY9ohJlCjQH2CZjjYVvJ.jpg"/>
+              
+            
+          </div>
+        </div>
+        <div class="movie-list__container">
+          <h2 class="movie-list__title">Comedy Movie</h2>
+          <div class="movie-list__items movie-list__items horizontal">
+            <img
+              class="movie-list__item"
+              src="https://image.tmdb.org/t/p/w300/z1p34vh7dEOnLDmyCrlUVLuoDzd.jpg"/>
+              
+            
+            <img
+              class="movie-list__item"
+              src="https://image.tmdb.org/t/p/w300/tSz1qsmSJon0rqjHBxXZmrotuse.jpg"/>
+              
+            
+            <img class="movie-list__item" src="https://image.tmdb.org/t/p/w300/uGyiewQnDHPuiHN9V4k2t9QBPnh.jpg"/> 
+            <img
+              class="movie-list__item"
+              src="https://image.tmdb.org/t/p/w300/8FHthx4Vu81J4X5BTLhJYK9Gtbs.jpg"/>
+              
+            
+            <img
+              class="movie-list__item"
+              src="https://image.tmdb.org/t/p/w300/gAEUXC37vl1SnM7PXsHTF23I2vq.jpg"/>
+             
+            
+            <img
+              class="movie-list__item"
+              src="./images/dirk_gently.jpeg"
+             
+            />
+          </div>
+        </div>
+        <div class="movie-list__container">
+          <h2 class="movie-list__title">Family Movie</h2>
+          <div class="movie-list__items movie-list__items horizontal">
+            <img
+              class="movie-list__item"
+              src="https://image.tmdb.org/t/p/w300/z1p34vh7dEOnLDmyCrlUVLuoDzd.jpg"/>
+              
+            
+            <img
+              class="movie-list__item"
+              src="https://image.tmdb.org/t/p/w300/tSz1qsmSJon0rqjHBxXZmrotuse.jpg"/>
+              
+            
+            <img class="movie-list__item" src="https://image.tmdb.org/t/p/w300/uGyiewQnDHPuiHN9V4k2t9QBPnh.jpg"/> 
+            <img
+              class="movie-list__item"
+              src="https://image.tmdb.org/t/p/w300/8FHthx4Vu81J4X5BTLhJYK9Gtbs.jpg"/>
+              
+            
+            <img
+              class="movie-list__item"
+              src="https://image.tmdb.org/t/p/w300/gAEUXC37vl1SnM7PXsHTF23I2vq.jpg"/>
+             
+            
+            <img
+              class="movie-list__item"
+              src="./images/dirk_gently.jpeg"
+             
+            />
+          </div>
+        </div>
+        <div class="movie-list__container">
+          <h2 class="movie-list__title">Horror Movie</h2>
+          <div class="movie-list__items movie-list__items horizontal">
+            <img
+              class="movie-list__item"
+              src="https://image.tmdb.org/t/p/w300/z1p34vh7dEOnLDmyCrlUVLuoDzd.jpg"/>
+              
+            
+            <img
+              class="movie-list__item"
+              src="https://image.tmdb.org/t/p/w300/tSz1qsmSJon0rqjHBxXZmrotuse.jpg"/>
+              
+            
+            <img class="movie-list__item" src="https://image.tmdb.org/t/p/w300/uGyiewQnDHPuiHN9V4k2t9QBPnh.jpg"/> 
+            <img
+              class="movie-list__item"
+              src="https://image.tmdb.org/t/p/w300/8FHthx4Vu81J4X5BTLhJYK9Gtbs.jpg"/>
+              
+            
+            <img
+              class="movie-list__item"
+              src="https://image.tmdb.org/t/p/w300/gAEUXC37vl1SnM7PXsHTF23I2vq.jpg"/>
+             
+            
+            <img
+              class="movie-list__item"
+              src="./images/dirk_gently.jpeg"
+             
+            />
+          </div>
+        </div>
+      </div>
+      <!--
+      <div class="footer">
+        <nav class="footer__navigation navbar__container--mobile">
+          <a href="#"><i class="fa-solid fa-house"></i></a>
+          <a href="#"><i class="fa-solid fa-photo-film"></i></a>
+          <a href="#"><i class="fa-solid fa-download"></i></a>
+          <a href="#"><<i class="fa-solid fa-user"></i></a>
+        </nav>
+      </div>
+-->
+    </div>
+  </body>
+</html>
