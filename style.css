@@ -44,9 +44,11 @@ body {
   /*değişiklikler-bitir*/
 }
 
+/*değişiklikler-başla*/
 .navbar__logo-mobile {
   /*width: 12vw;*/
-  height: 5vw;
+  height: 5vh;
+  min-height: 5vh;
   position: absolute;
   left: 1.5em;
   margin: 1.2em;
@@ -55,6 +57,7 @@ body {
 .navbar__logo-desktop {
   display: none;
 }
+/*değişiklikler-bitir*/
 
 .navbar__container--primary {
   display: flex;
@@ -299,6 +302,7 @@ ul {
     background: none;
   }
 
+  /*değişiklikler-başla*/
   .navbar__item-desktop {
     display: block;
   }
@@ -306,6 +310,7 @@ ul {
   .navbar__logo-mobile {
     display: none;
   }
+  /*değişiklikler-bitir*/
 
   .navbar__logo-desktop {
     display: inline-block;
